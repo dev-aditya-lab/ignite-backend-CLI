@@ -42,8 +42,7 @@
   "files": ["bin", "templates", "README.md", "LICENSE"],
   "preferGlobal": true,
   "publishConfig": {
-    "access": "public",
-    "tag": "beta"
+    "access": "public"
   },
   "scripts": {
     "test": "node --test ./tests || vitest run",
