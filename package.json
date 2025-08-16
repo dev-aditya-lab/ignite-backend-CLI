@@ -1,0 +1,55 @@
+{
+  "name": "ignite-backend",
+  "version": "1.0.0-beta.0",
+  "type": "module",
+  "description": "Scaffold a production-ready MVC backend (Express) in JS or TS with optional database + auth.",
+  "bin": {
+    "create-backend-app": "bin/index.js"
+  },
+  "exports": {
+    ".": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "express",
+    "backend",
+    "mvc",
+    "typescript",
+    "javascript",
+    "generator",
+    "create"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-user/create-backend-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-user/create-backend-app/issues"
+  },
+  "homepage": "https://github.com/your-user/create-backend-app#readme",
+  "files": ["bin", "templates", "README.md"],
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta"
+  },
+  "scripts": {
+    "test": "node --test ./tests || vitest run",
+    "cli:test": "node tests/cli.test.js",
+    "release:beta": "npm version prerelease --preid=beta && npm publish --tag beta"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
