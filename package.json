@@ -1,6 +1,6 @@
 {
   "name": "ignite-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold a production-ready MVC backend (Express) in JS or TS with optional database + auth.",
   "type": "module",
   "bin": {
@@ -39,7 +39,12 @@
     "url": "https://github.com/dev-aditya-lab/ignite-backend-CLI/issues"
   },
   "homepage": "https://github.com/dev-aditya-lab/ignite-backend-CLI#readme",
-  "files": ["bin", "templates", "README.md", "LICENSE"],
+  "files": [
+    "bin",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
   "preferGlobal": true,
   "publishConfig": {
     "access": "public"
@@ -49,11 +54,14 @@
     "cli:test": "node tests/cli.test.js",
     "release:beta": "npm version prerelease --preid=beta && npm publish --tag beta"
   },
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
+    "ignite-backend": "^1.0.0",
     "inquirer": "^9.2.15",
     "ora": "^8.0.1"
   },

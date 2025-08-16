@@ -1,4 +1,9 @@
 # ignite-backend
+![npm](https://img.shields.io/npm/v/ignite-backend)
+![npm downloads](https://img.shields.io/npm/dt/ignite-backend)
+![GitHub stars](https://img.shields.io/github/stars/dev-aditya-lab/ignite-backend-CLI)
+![License](https://img.shields.io/npm/l/ignite-backend)
+
 
 Professional, fast scaffolding for modern Express backends in JavaScript or TypeScript. Choose a language, optional database layer (MongoDB / PostgreSQL / MySQL), and JWT authentication in seconds.
 
